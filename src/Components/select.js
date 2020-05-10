@@ -27,9 +27,6 @@ class Select extends React.Component{
                     </select>
                     <select value={this.props.annee} onChange={this.props.onChange} name={this.props.name_annee} style={{"marginLeft":"12px"}}>
                         <option value={undefined}>Annés</option>
-                        <option>2017</option>
-                        <option>2018</option>
-                        <option>2019</option>
                         <option>2020</option>
                         <option>2021</option>
                         <option>2022</option>
@@ -38,13 +35,6 @@ class Select extends React.Component{
                         <option>2025</option>
                         <option>2026</option>
                         <option>2027</option>
-                        <option>2028</option>
-                        <option>2029</option>
-                        <option>2030</option>
-                        <option>2031</option>
-                        <option>2032</option>
-                        <option>2033</option>
-                        <option>2034</option>
                     </select>
                 </span>
             </div>
